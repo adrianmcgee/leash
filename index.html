@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leash — Put your AI agent on a leash</title>
+  <meta name="description" content="Leash keeps your iPhone, Apple Watch, and Mac in sync so you can approve commands, answer questions, and steer Claude Code from anywhere." />
+  <style>
+    :root {
+      --bg: #0b0f0c; --surface: #141a16; --text: #e8efe9; --text2: #9fb0a4;
+      --accent: #3fd27e; --border: #243029;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 72px 24px 96px; }
+    .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 48px; }
+    .mark {
+      width: 40px; height: 40px; border-radius: 11px;
+      background: linear-gradient(135deg, var(--accent), #1f9b58);
+      display: grid; place-items: center; color: #06120a; font-weight: 800; font-size: 20px;
+    }
+    .brand b { font-size: 20px; }
+    h1 { font-size: 40px; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 16px; }
+    .lede { font-size: 18px; color: var(--text2); max-width: 36em; margin-bottom: 36px; }
+    .cta { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 16px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px; text-decoration: none;
+      font-weight: 600; padding: 14px 22px; border-radius: 12px; font-size: 16px;
+    }
+    .btn-primary { background: var(--accent); color: #06120a; }
+    .btn-secondary { background: var(--surface); color: var(--text); border: 1px solid var(--border); }
+    .note { color: var(--text2); font-size: 14px; }
+    .steps { margin-top: 56px; display: grid; gap: 14px; }
+    .step {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 18px 20px; display: flex; gap: 14px; align-items: flex-start;
+    }
+    .step .n {
+      flex: none; width: 26px; height: 26px; border-radius: 8px; background: var(--bg);
+      border: 1px solid var(--border); display: grid; place-items: center;
+      color: var(--accent); font-weight: 700; font-size: 14px;
+    }
+    .step h3 { font-size: 16px; margin-bottom: 2px; }
+    .step p { color: var(--text2); font-size: 14px; }
+    footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--text2); font-size: 14px; }
+    footer a { color: var(--accent); text-decoration: none; }
+    .req { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="brand"><span class="mark">⛓</span><b>Leash</b></div>
+
+    <h1>Put your AI coding agent on a leash.</h1>
+    <p class="lede">
+      Approve commands, answer questions, and steer Claude Code from your iPhone,
+      Apple Watch, and Mac — from the next room or the next city.
+    </p>
+
+    <div class="cta">
+      <a class="btn btn-primary" href="https://github.com/adrianmcgee/leash/releases/latest/download/Leash.dmg">
+        ⬇ Download for Mac
+      </a>
+      <a class="btn btn-secondary" href="https://apps.apple.com/app/leash">
+         Get the iPhone app
+      </a>
+    </div>
+    <p class="note req">
+      Free Mac companion · macOS 14+ · notarized. The iPhone app pairs with it.
+      <strong>You need both:</strong> the Mac app runs alongside Claude Code; the
+      phone is your remote.
+    </p>
+
+    <div class="steps">
+      <div class="step"><span class="n">1</span><div>
+        <h3>Install the Mac app</h3>
+        <p>Open the DMG, drag Leash to Applications, launch it, and install the hook from the app.</p>
+      </div></div>
+      <div class="step"><span class="n">2</span><div>
+        <h3>Pair your iPhone</h3>
+        <p>On the same Wi-Fi it connects automatically; off Wi-Fi, scan the QR or paste the pairing link.</p>
+      </div></div>
+      <div class="step"><span class="n">3</span><div>
+        <h3>Run Claude Code as usual</h3>
+        <p>When it needs you, your phone buzzes. Approve, deny, or reply — from anywhere.</p>
+      </div></div>
+    </div>
+
+    <footer>
+      <a href="./support.md">Support</a> &nbsp;·&nbsp;
+      <a href="./privacy-policy.md">Privacy Policy</a>
+      <p style="margin-top:8px;">Leash is zero-knowledge — your data stays on your devices.</p>
+    </footer>
+  </main>
+</body>
+</html>
