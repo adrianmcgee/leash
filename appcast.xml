@@ -1,14 +1,14 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>ClaudeNotifyMac</title>
+        <title>Leash</title>
         <item>
-            <title>1.1</title>
-            <pubDate>Sat, 20 Jun 2026 21:37:41 +1000</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <title>1.2</title>
+            <pubDate>Sat, 20 Jun 2026 21:48:54 +1000</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/adrianmcgee/leash/releases/latest/download/Leash.dmg" length="4385732" type="application/octet-stream" sparkle:edSignature="U8nEQe4fNNvt0k7B9Ok7zk7MQFJ4xODHxiTgHNcGKpJ4vxaF435VtE5+kiWmkHlQgmrdqlBfBKJYykHkodCGCg=="/>
+            <enclosure url="https://github.com/adrianmcgee/leash/releases/latest/download/Leash.dmg" length="4385697" type="application/octet-stream" sparkle:edSignature="9TgQTaOWuAnLIFpLy/ugq6ixtPk+xDuN8osCBwfTweoIaOsVqDKAopTv/T3Tu6xDy42PZzaGLjmPVzvnXaMrAA=="/>
         </item>
     </channel>
 </rss>
