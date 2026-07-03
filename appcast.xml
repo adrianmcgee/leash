@@ -3,12 +3,12 @@
     <channel>
         <title>Leash</title>
         <item>
-            <title>1.7</title>
-            <pubDate>Fri, 03 Jul 2026 14:37:57 +1000</pubDate>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>1.7</sparkle:shortVersionString>
+            <title>1.8</title>
+            <pubDate>Fri, 03 Jul 2026 22:27:06 +1000</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>1.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/adrianmcgee/leash/releases/latest/download/Leash.dmg" length="5074701" type="application/octet-stream" sparkle:edSignature="859HsfbAbWmQVZqhBC/j2e/Ld9u8sguNkM/DwVMSo0bTTvEv3yRsVIbsCVFlcFtmTr3uhvkQMKjeQFaKrdy2BQ=="/>
+            <enclosure url="https://github.com/adrianmcgee/leash/releases/latest/download/Leash.dmg" length="5095300" type="application/octet-stream" sparkle:edSignature="5SsVtfmM9DImqq8uQq8L2gUvdO8gWZsgcKoTzmfAjUBG6/hUm3dnUfIoURqYsj+9VJ4zBfR9f3jhjLubVPGdCQ=="/>
         </item>
     </channel>
 </rss>
